@@ -1,0 +1,316 @@
+header{
+    height: 90vh;
+    background-image: url(../img/1\ background.png);
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+}
+body{
+    margin: 0;
+}
+header div{
+    width: 24vw;
+    height: 24vw;
+    border-radius: 50%;
+    border: 50px solid #c64006de;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+    box-sizing: border-box;
+    z-index: 0;
+}
+header article{
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    margin: auto;
+    display: flex;
+    z-index: 1;
+}
+article h1{
+    margin: auto;
+    color: white;
+    font-size: 5vw;
+    z-index: 2;
+    text-transform:uppercase;
+    font-family: oswald;
+}
+.info{
+    height: 25vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: oswald;
+}
+.info h2{
+    margin: auto;
+    font-size: 4vw;
+}
+#details{
+    background-image: url(../img/2\ background.jpg);
+    background-size: cover;
+    padding: 50px;
+    background-attachment: fixed;
+}
+#details h2{
+    text-align: center;
+    font-family: oswald;
+    font-size: 3.5vh;
+    color: white;
+}
+#details h3{
+    font-family: oswald;
+    font-size: 2.5vh;
+    color: white;
+    transform-origin: left center;
+}
+#details ul{
+    font-family: oswald;
+    font-size: 2.5vh;
+    color: white;
+}
+#details figure{
+    background-color: #c64006c5;
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+._1{
+  animation: start 1s  alternate;
+  transform-origin: left center;
+}
+._2{
+  animation: start 1s  alternate;
+  animation-delay: 1s;
+}
+._3{
+  animation: start 1s  alternate;
+  animation-delay: 2s;
+}
+._4{
+  animation: start 1s  alternate;
+  animation-delay: 3s;
+}
+._5{
+  animation: start 1s  alternate;
+  animation-delay: 4s;
+}
+._6{
+  animation: start 1s  alternate;
+  animation-delay: 5s;
+}
+._7{
+  animation: start 1s  alternate;
+  animation-delay: 6s;
+}
+@keyframes start{
+  from {transform:scale(1, 1)}
+  50% {transform: scale(1.2, 1.2);}
+  to {transform:scale(1, 1)}
+}
+
+
+.text{
+  background-image: url(../img/3\ background.jpg);
+  padding: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card .logo{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+a{
+  display: flex;
+}
+.card{
+  background-color: rgba(255, 255, 255);
+  padding: 30px 10px;
+  margin-top: 50px;
+  text-align: center;
+  width: 60%;
+  border-radius: 50px;
+  margin: 50px auto;
+}
+.card h2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  font-family: oswald;
+  font-size: 4vw;
+}
+.card img{
+  width: 100%;
+}
+.card .last{
+  width: 70%;
+}
+.ai-vs-bi {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: white;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+.ai-vs-bi {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #c64006, #B20537);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .ai-vs-bi h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .comparison {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+    gap: 10%;
+  }
+  
+  .column {
+    width: fit-content;
+    text-align: left;
+  }
+  
+  .column h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .column ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 1.2em;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-size: cover;
+  }
+  
+  .brain {
+    background-image: url(../img/icon2.png);
+    
+    background-color: #fabbaf;
+  }
+  
+  .processor {
+    background-image: url(../img/icon1.png);
+    background-color: #fabbaf;
+  }
+  
+  .divider {
+    width: 2px;
+    background: linear-gradient(to bottom, #ccc, #eee);
+    height: auto;
+  }
+  
+  .actions {
+    margin-top: 30px;
+  }
+  
+  .btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Иконка мозга: пульсация */
+  .brain {
+    background-image: url(../img/icon2.png);
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 15px  5px#4CAF50;
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px  5px#4CAF50;
+    }
+}
+  
+  /* Иконка компьютера: искрение */
+.processor {
+    background-image: url(../img/icon1.png);
+    animation: spark 1.5s infinite;
+  }
+  
+  @keyframes spark {
+    0% {
+      box-shadow: 0 0 15px  5px#4CAF50;
+      transform: rotate(0deg);
+    }
+    25% {
+      box-shadow: 0 0 25px 5px#4CAF50;
+      transform: rotate(5deg);
+    }
+    50% {
+      box-shadow: 0 0 15px 5px#4CAF50;
+      transform: rotate(-5deg);
+    }
+    75% {
+      box-shadow: 0 0 20px 5px#4CAF50;
+      transform: rotate(5deg);
+    }
+    100% {
+      box-shadow: 0 0 10px 5px #4CAF50;
+      transform: rotate(0deg);
+    }
+}
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/static/Oswald-SemiBold.ttf);
+}

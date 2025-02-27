@@ -1,0 +1,84 @@
+@media(max-width: 700px){
+    header div{
+        width: 50vw;
+        height: 50vw;
+        border-radius: 50%;
+        border: 20px solid #c64006de;
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
+        box-sizing: border-box;
+        z-index: 0;
+    }
+    header article{
+        width: 60vw;
+        height: 60vw;
+        position: relative;
+        margin: auto;
+        display: flex;
+        z-index: 1;
+    }
+    article h1{
+        margin: auto;
+        color: white;
+        font-size: 8vw;
+        z-index: 2;
+        text-transform:uppercase;
+        font-family: oswald;
+    }
+    .flex-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #details figure{
+        background-color: #c64006c5;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    #details figure:first-child{
+        border-radius: 20px 20px 0 0;
+        padding-bottom: 0;
+    }
+    #details figure:last-child{
+        border-radius: 0 0 20px 20px;
+        padding-top: 0px;
+    }
+    .info{
+        height: 12vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        font-family: oswald;
+    }
+    #details h2{
+        text-align: center;
+        font-family: oswald;
+        font-size: 3vh;
+        color: white;
+    }
+    #details h3{
+        font-family: oswald;
+        font-size: 2vh;
+        color: white;
+        transform-origin: left center;
+    }
+    #details ul{
+        font-family: oswald;
+        font-size: 2vh;
+        color: white;
+    }
+    .ai-vs-bi h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: white;
+      }
+      .column h2 {
+        font-size: 1em;
+        margin-bottom: 10px;
+        color: white;
+      }
+}
